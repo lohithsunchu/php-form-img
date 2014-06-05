@@ -1,0 +1,15 @@
+root-directory/images.php
+root-directory/index.php
+root-directory/upload.php
+root-directory/images/
+root-directory/includes/conn.php
+
+
+
+CREATE TABLE `people` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`fname` VARCHAR( 30 ) NOT NULL ,
+`lname` VARCHAR( 40 ) NOT NULL ,
+`filename` VARCHAR( 50 ) NOT NULL
+) ENGINE = MYISAM ;
+
